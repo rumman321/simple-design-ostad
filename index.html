@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+</head>
+<body >
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow bg-light " data-bs-theme="light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#NavMenuPanel">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navber-brand nav-link">Navber Brand</a>
+            <div class="collapse navbar-collapse" id="NavMenuPanel">
+                <ul class=" navbar-nav me-auto ">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                </ul>
+                <div class="">
+                    <form class="d-flex" >
+                        <input type="text" class="form-control">
+                        <button class="btn btn-primary  mx-3">Search</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <nav class="navbar navbar-expand bg-primary justify-content-between m-5 " style="border-radius: 10px;">
+            <a class="navbar-brand" href="#"><img src="fblog.png" alt="fb" style="height:30px; width: 30px;"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-danger text-20px" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-danger" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-danger" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-danger" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-danger" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link  text-danger" href="#">Home</a></li>
+                
+            </ul>
+        </nav>
+        <div class="row  ">
+            <div class="col-6 bg-success-subtle">
+                <!-- placeholders -->
+                <p class=" ">
+                    <span class="placeholder placeholder-sm col-6 bg-success my-2 placeholder-wave"></span><br>
+                    <span class="placeholder placeholder-xs col-5 my-2 placeholderf-glow"></span><br>
+                    <span class="placeholder placeholder-lg col-2 bg-info my-2 placeholder-wave"></span><br>
+                    <span class="placeholder  col-6 bg-light my-2 placeholder-wave"></span><br>
+                    <span class="placeholder col-3 bg-warning placeholder-glow"></span>
+
+                </p>
+                <button class="btn btn-success ">submit</button>
+                <button class="btn btn-danger">submit</button>
+                <button class="btn btn-warning">submit</button>
+                <button class="btn btn-outline">submit</button>
+                <button class="btn btn-outline-info">submit</button>
+                <button class="btn btn-outline-light">submit</button>
+                <button class="btn btn-success btn-lg">submit</button>
+                <button class="btn btn-success btn-sm">submit</button>
+                <button class="btn  btn-success btn-sm" disabled>submit</button>
+
+                <!-- alert -->
+                <div class="alert alert-danger text-white ">
+                    my alert !
+                </div>
+                <div class="alert alert-success text-white ">
+                    my alert !
+                </div>
+                <div class="alert alert-warning text-white ">
+                    my alert !
+                </div>
+                <div class="alert alert-info text-white ">
+                    my alert !
+                </div>
+                <div class="alert alert-light text-white ">
+                    my alert !
+                </div>
+
+                <!-- form -->
+                <form >
+
+                    
+                    <div class="form-check">
+                        <input type="radio" name="gender" class="form-check-input">
+                        <label class="form-check-label">male</label>
+
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="gender" class="form-check-input">
+                        <label class="form-check-label">female</label>
+
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="gender" class="form-check-input">
+                        <label class="form-check-label">others</label>
+
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox"  class="form-check-input">
+                        <label class="form-check-label">others</label>
+
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">others</label>
+
+                    </div>
+                    <div class="form-check ">
+                        <input type="checkbox"  class="form-check-input">
+                        <label class="form-check-label">others</label>
+
+                    </div >
+                    <input type="range">
+                    <input type="range" class="form-range" min="0" max="100" step="10">
+                    <input type="range" class="form-range" disabled>
+                </form>
+
+
+                <!-- List group -->
+                <ul class="list-group ">
+                    <li class="list-group-item">Nepal</li>
+                    <li class="list-group-item">America</li>
+                    <li class="list-group-item">Dubai</li>
+                    <li class="list-group-item">Canada</li>
+                    <li class="list-group-item">UK</li>
+                    <li class="list-group-item">India</li>
+                    <li class="list-group-item">China</li>
+                    <li class="list-group-item">Korea</li>
+
+                </ul>
+
+
+                <!-- Spinner -->
+                <div class="spinner-grow text-warning ">
+
+                </div>
+                <!-- Progress bar -->
+                <div class="progress  " style="height: 30px;">
+                    <div class="progress-bar " style="width: 69.9%;" > 
+                            69.9%
+                    </div>
+                </div><br>
+                <!-- pagination -->
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Back</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+                <!-- ofcanvas -->
+                <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#myid">Click </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="myid">
+                    <div class="offcanvas-header">
+                       <h5 class="offcanvas-title">title</h5>
+                       <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">hey! Send me money</div>
+                </div>
+
+                <!-- modal -->
+                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#mymodal">Modal</button>
+                <div class="modal" tabindex="-1" id="mymodal">
+                   <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Title</h5>
+                            <button class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-12">
+                                            <img src="https://placehold.co/600x400" style="height: 80px; width: 80px;" alt="image">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem numquam delectus minima quas. Minus nostrum explicabo, nisi fugiat quisquam odio sequi, accusamus illo ipsam cumque eum esse optio perferendis quo dolorum amet, reprehenderit nemo incidunt soluta iste placeat in similique quas molestiae. Iste officiis voluptatem aliquid alias, aperiam repudiandae accusantium nulla incidunt sequi non temporibus a nemo perspiciatis similique amet laudantium possimus vitae saepe quis consectetur. Quos quas alias praesentium autem labore sit ab explicabo quibusdam illo, eveniet, magni, deleniti beatae nemo dolores officiis obcaecati temporibus molestias minima laborum eligendi quam! Voluptatibus eaque fugiat quis rem perspiciatis. Laboriosam, libero molestias.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                           
+
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                            <button class="btn btn-success " s>Confirm</button>
+
+                        </div>
+
+                    </div>
+                   </div>
+                    <div>
+
+                    </div>
+
+                </div><br><br>
+
+                <!-- tab view -->
+                <nav>
+                    <div class="nav nav-tabs">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#homeview">home</button>
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profileview">profile</button>
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#contactview">contact</button>
+                        <button class="nav-link " data-bs-toggle="tab" data-bs-target="#aboutview">about</button>
+                    </div>
+                    <div class="tab-content">
+                        <div class=" tab-pane fade show active " id="homeview">
+                            <p>this is home activies</p>
+
+                        </div>
+                        <div class=" tab-pane fade" id="profileview">
+                            <p>this is profile activies</p>
+
+                        </div>
+                        <div class=" tab-pane fade " id="contactview">
+                            <p>this is contact activies</p>
+
+                        </div>
+                        <div class=" tab-pane fade show" id="aboutview">
+                            <p>this is about activies</p>
+
+                        </div>
+                    </div>
+                </nav>
+
+                
+            </div>
+           <div class="col-6 p-6 bg-light ">
+            <div class="bg-danger ms-5 mt-5 me-5 md-5 p-5">
+                <p>Margin padding</p>
+              </div><br><br>
+            <!-- card -->
+
+                <div class="card w-50 shadow-lg">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title ">title</h5>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, expedita?</p>
+                        <img class="card-img" src="https://placehold.co/600x400/png" alt="">
+
+                    </div>
+                     
+                </div><br><br>
+               <form >
+                <input class="form-control form-control-lg" type="text"><br><br>
+                <input class="form-control form-control-sm" type="text"><br><br>
+                <input class="form-control" type="from"><br><br>
+                <input class="form-control" disabled type="text"><br><br>
+                <input   type="file"><br><br>
+                <label class="form-label text-danger text-emphasis">your number</label>
+                <input class="form-control" type="number"><br><br>
+                <textarea class="form-control" name="Rumman" id="3333" cols="30" rows="10"></textarea><br><br>
+
+                <select class="form-select" name="" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option  selected value ="4">4</option>
+
+                </select><br><br>
+                <select class="form-select form-select-lg" name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+
+                </select><br><br>
+                <select class="form-select form-select-sm" name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="" selected>3</option>
+                        <option value="" selected>4</option>
+
+                </select><br><br>
+               </form>
+               <!-- Dropdown -->
+               <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Country</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">Bangladesh</li>
+                    <li class="dropdown-item">Us</li>
+                    <li class="dropdown-item">UK</li>
+                    <li class="dropdown-item">UN</li>
+                </ul>
+
+               </div><br><br>
+               <!-- z-index -->
+               <div class="z-0 bg-info opacity-50  p-5 position-absolute m-1 ">
+                Rumman+
+               </div>
+               <div class="z-1 bg-warning  opacity-50 p-5 position-absolute m-2">
+                Rumman++
+               </div>
+               <div class="z-2 bg-danger opacity-50  p-5 position-absolute m3">
+                Rumman+++
+               </div>
+             
+           </div>
+        </div>
+    </div>   
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
